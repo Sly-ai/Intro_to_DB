@@ -47,4 +47,5 @@ CREATE TABLE IF NOT EXISTS Order_Details (
         ON DELETE CASCADE,
     FOREIGN KEY (book_id) REFERENCES Books(book_id)
         ON UPDATE CASCADE
-        ON DELETE CASC
+        ON DELETE CASCADE
+);
